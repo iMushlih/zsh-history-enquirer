@@ -15,7 +15,7 @@ if [[ ! $commands[node] ]]; then
     # https://github.com/nvm-sh/nvm
     set +x
     echo '[info] not found node or nvm, will install them'
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | zsh
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
     set -x
   fi
 
