@@ -35,3 +35,4 @@ fi
 # https://stackoverflow.com/questions/49084929/npm-sudo-global-installation-unsafe-perm
 # https://docs.npmjs.com/cli/v6/using-npm/config#unsafe-perm
 npm i -g ${package_name} --unsafe-perm
+echo 'source `npm root -g`/zsh-history-enquirer/scripts/zsh-history-enquirer.plugin.zsh' >> ~/.zshrc
